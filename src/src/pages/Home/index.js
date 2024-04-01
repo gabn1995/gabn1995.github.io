@@ -1,5 +1,5 @@
 import React from "react";
-import {BackgroundArea, DiferencialArea} from './styled';
+import {BackgroundArea, DiferencialArea, ProjectsArea} from './styled';
 
 const Page = () => {
     return (
@@ -49,6 +49,21 @@ const Page = () => {
                     </div>
                 </div>
             </DiferencialArea>
+            <ProjectsArea>
+                <div className="title">Vamos falar sobre seu projeto!</div>
+                <div className="subtitle">Preencha o formulário abaixo com seus dados e nós entraremos em contato.</div>
+                <form>
+                    <div className="box-first">
+                        <input type="text" name="name" placeholder="seu nome"/>
+                        <input type="email" name="email" placeholder="seu email"/>
+                    </div>
+                    <div className="box-second">
+                        <span>Como você idealiza o seu projeto atualmente?</span>
+                        <input type="text" name="name"/>
+                    </div>
+                </form>
+                <button>ENVIAR MENSAGEM</button>
+            </ProjectsArea>
         </>
     );
 };

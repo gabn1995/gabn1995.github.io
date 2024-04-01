@@ -13,6 +13,7 @@ export const DiferencialArea = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 
   .title{
     margin-top: 50px;
@@ -60,4 +61,78 @@ export const DiferencialArea = styled.div`
       }
     }
   }
+`;
+
+export const ProjectsArea = styled.div`
+  background-color: #020200;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title{
+    position: relative;
+    top: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .subtitle{
+    margin-top: 150px;
+    font-size: 22px;
+    color: #ccc;
+  }
+
+  form{
+    input{
+      flex: 1;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      margin: 0 50px;
+      outline: none;
+      color: #fff;
+      font-size: 15px;
+    }
+
+    input::placeholder{
+      color: #ccc;
+      font-size: 15px;
+    }
+  }
+
+  form .box-first{
+    margin-top: 100px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  form .box-second{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span{
+      color: #ccc;
+      margin-bottom:20px;
+    }
+
+    input{
+      width: 90%;
+    }
+  }
+
+    button{
+      margin-top: 60px;
+      padding: 10px 20px;
+      border: 0;
+      border-radius: 5px;
+      font-weight: bold;
+      background-color: #44a04d;
+      color: #fff;
+      cursor: pointer;
+    }
 `;

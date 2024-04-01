@@ -5,7 +5,7 @@ export const HeaderArea = styled.div`
     height: 60px;
     width: 100vw;
     background-color: transparent;
-
+    
     .container{
         max-width: 1100px;
         margin: auto;
